@@ -42,6 +42,10 @@ document.querySelectorAll(".task").forEach((task) => {
   });
 });
 
+/*
+    user clicks on equal button n2 become the second value and function equals 
+    takes numberActionJson values and n2 and calculate result
+*/
 document.querySelector(".equal").addEventListener("click", (e) => {
   let n1 = numberActionJson.n1;
   let action = numberActionJson.action;
