@@ -52,36 +52,3 @@ document.querySelector(".equal").addEventListener("click", (e) => {
     alert("please insert numbers only");
   }
 });
-
-/*
-    mission 1:
-    user type number
-    when user click on one of the actions
-    number being kept into a variable
-
-    mission 2:
-    the program detects which action did the use clicked 
-    the action kept into a variable
-    the input field revert to blank
-
-    mission 3:
-    user type the second number
-    user clicks equal btn 
-    second number is kept into a variable
-
-    mission 4:
-    a function will take the action variable and check which action is it
-    the equal button will take n1, n2, and the action
-    the program will run the equals function
-    the result will be shown instead of the input
-
-
-    
-
-
-
-
-
-
-
-*/
