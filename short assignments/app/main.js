@@ -46,13 +46,10 @@ document.querySelector(".equal").addEventListener("click", (e) => {
   let n1 = numberActionJson.n1;
   let action = numberActionJson.action;
   let n2 = resultInput.value;
-  try {
+  if (parseFloat(n1) && parseFloat(n2)) {
     resultInput.value = equals(parseFloat(n1), parseFloat(n2), action);
-  } catch (e) {
+  } else {
     alert("please insert numbers only");
-    n1 = 0;
-    action = "";
-    resultInput.value = "";
   }
 });
 
